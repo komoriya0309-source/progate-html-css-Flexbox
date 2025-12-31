@@ -41,3 +41,15 @@ li {
     width: 50%;
 }
 }
+
+/*スマホ向けレイアウト*/
+
+@media(max-width: 670px){
+.flex-list{
+    flex-direction: column;
+}
+
+.flex-list li{
+    margin: 0 auto;
+}
+}
